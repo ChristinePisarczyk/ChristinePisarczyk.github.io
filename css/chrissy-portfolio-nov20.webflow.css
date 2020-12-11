@@ -1,0 +1,829 @@
+/* ---- Insert your own stuff here ---- */
+
+/* ---- Scroll Bar ---- */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #191919;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(55deg, #60d3e2 0%, #1fc8db 51%, #5ef37f 85%);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(55deg, #60d3e2 0%, #1fc8db 51%, #5ef37f 85%);
+}
+
+
+/* ---- Webflow stuff starts here ---- */
+
+.w-embed-youtubevideo {
+  width: 100%;
+  position: relative;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.w-embed-youtubevideo:empty {
+  min-height: 75px;
+  padding-bottom: 56.25%;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.body {
+  background-color: #191919;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  line-height: 1em;
+}
+
+.top-space {
+  margin-bottom: 60px;
+  line-height: 1em;
+}
+
+.main-content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  line-height: 1em;
+}
+
+.mycontainer {
+  max-width: 1080px;
+  margin-bottom: 0px;
+  background-color: transparent;
+}
+
+.main-h1-bigname {
+  margin-bottom: 0px;
+  font-size: 64px;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.main-h2-bigsub {
+  margin-top: 0px;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.c2-class {
+  padding-left: 16px;
+}
+
+.c3-alignment {
+  padding-left: 0px;
+}
+
+.main-h3-dnd-input {
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.main-dnd-titles {
+  margin-top: 20px;
+}
+
+.heading {
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+
+.main-h4-dnd-field {
+  margin-top: 0px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.descriptionbox {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.paragraph {
+  width: 80%;
+  font-size: 24px;
+  line-height: 1.2em;
+}
+
+.projects-header {
+  margin-top: 48px;
+}
+
+.main-h4-quests {
+  margin-bottom: 48px;
+  font-size: 36px;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+
+.projects-titles {
+  margin-bottom: 64px;
+}
+
+.main-project-title-link-epic {
+  color: #fff;
+  font-size: 96px;
+  line-height: 1.2em;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-project-title-link-epic:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#25b4fc), color-stop(0%, #24aefa), to(#1362e4));
+  background-image: linear-gradient(180deg, #25b4fc, #24aefa 0%, #1362e4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project {
+  margin-bottom: 48px;
+}
+
+.project-description {
+  font-size: 24px;
+  line-height: 1.2em;
+  font-weight: 500;
+}
+
+.main-project-title-link-epic-copy {
+  color: #fff;
+  font-size: 96px;
+  line-height: 1.2em;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.text-link {
+  color: #fff;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-link:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#60d3e2), to(#5ef37f));
+  background-image: linear-gradient(180deg, #60d3e2, #5ef37f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-project-title-link-ansys {
+  color: #fff;
+  font-size: 96px;
+  line-height: 1.2em;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-project-title-link-ansys:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(44%, #feb632), to(#821700));
+  background-image: linear-gradient(180deg, #feb632 44%, #821700);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.div-block {
+  overflow: hidden;
+}
+
+.project-title-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.main-project-title-link-witops {
+  color: #fff;
+  font-size: 96px;
+  line-height: 1.2em;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.main-project-title-link-witops:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#32d877), color-stop(70%, #308ac3));
+  background-image: linear-gradient(180deg, #32d877, #308ac3 70%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-project-title-link-loc {
+  color: #fff;
+  font-size: 96px;
+  line-height: 1.2em;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-project-title-link-loc:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d58626), color-stop(78%, #f24e23));
+  background-image: linear-gradient(180deg, #d58626, #f24e23 78%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-project-title-link-roots {
+  color: #fff;
+  font-size: 96px;
+  line-height: 1.2em;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-project-title-link-roots:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e6ea43), color-stop(0%, #e6ea43), to(#30be76));
+  background-image: linear-gradient(180deg, #e6ea43, #e6ea43 0%, #30be76);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-project-title-link-owl {
+  color: #fff;
+  font-size: 92px;
+  line-height: 1.2em;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-project-title-link-owl:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(39%, #f89c2d), to(#f2c835));
+  background-image: linear-gradient(180deg, #f89c2d 39%, #f2c835);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-project-title-link-hulu {
+  color: #fff;
+  font-size: 92px;
+  line-height: 1.2em;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-project-title-link-hulu:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#84e265), to(#10ad68));
+  background-image: linear-gradient(180deg, #84e265, #10ad68);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-project-title-link-warbyparker {
+  color: #fff;
+  font-size: 92px;
+  line-height: 1.2em;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-project-title-link-warbyparker:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9dd3df), to(#08a3e4));
+  background-image: linear-gradient(180deg, #9dd3df, #08a3e4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-project-title-link-petadopt {
+  color: #fff;
+  font-size: 92px;
+  line-height: 1.2em;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-project-title-link-petadopt:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f45c43), to(#eb3349));
+  background-image: linear-gradient(180deg, #f45c43, #eb3349);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-other-realms-links {
+  color: #fff;
+  font-size: 92px;
+  line-height: 1.2em;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-other-realms-links:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f45c43), to(#eb3349));
+  background-image: linear-gradient(180deg, #f45c43, #eb3349);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-other-realms-text-link {
+  display: block;
+  margin-bottom: 48px;
+  padding-bottom: 0px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.2em;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-other-realms-text-link:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#60d3e2), to(#5ef37f));
+  background-image: linear-gradient(180deg, #60d3e2, #5ef37f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.go-back-text-link {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 64px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.go-back-text-link:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#60d3e2), to(#5ef37f));
+  background-image: linear-gradient(180deg, #60d3e2, #5ef37f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project-h1-bigtitle {
+  margin-bottom: 0px;
+  font-size: 64px;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.project-dnd-titles {
+  margin-top: 20px;
+}
+
+.project-h2-bigsub {
+  margin-top: 0px;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.c2-party {
+  padding-left: 16px;
+}
+
+.c3-rewards {
+  padding-left: 0px;
+}
+
+.project-h3-titles {
+  margin-top: 48px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.project-descriptive-text {
+  margin-top: 12px;
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+.project-image {
+  margin-top: 20px;
+}
+
+.image {
+  margin-top: 12px;
+  margin-bottom: 36px;
+  background-color: #191919;
+}
+
+.project-content {
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.columns {
+  margin-bottom: 0px;
+}
+
+.project-summary-text {
+  width: 85%;
+  margin-top: 8px;
+  margin-bottom: 36px;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+.bottom-go-back-button {
+  margin-top: 64px;
+}
+
+.project-rewards-text {
+  margin-top: 8px;
+  margin-bottom: 36px;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+.slide {
+  background-image: url('../images/LoCDesignIdea1.png');
+  background-position: 0px 0px;
+  background-size: auto;
+  background-attachment: scroll;
+}
+
+.slider {
+  min-height: 540px;
+}
+
+.icon {
+  color: #191919;
+}
+
+.icon-2 {
+  color: #191919;
+}
+
+.slide-nav {
+  color: #191919;
+}
+
+.myslide {
+  background-color: #191919;
+}
+
+.myslider {
+  height: 100%;
+  margin-top: 12px;
+  margin-bottom: 48px;
+}
+
+.mask {
+  height: 100%;
+}
+
+.left-arrow {
+  display: none;
+}
+
+.right-arrow {
+  display: none;
+}
+
+.lightbox-link {
+  margin-top: 12px;
+  margin-bottom: 64px;
+}
+
+.lightbox-link-2 {
+  margin-top: 12px;
+  margin-bottom: 64px;
+}
+
+.list-item {
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+.project-h4-subs {
+  margin-top: 0px;
+  margin-bottom: -8px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.testing-h3 {
+  margin-top: 48px;
+  margin-bottom: 8px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+  background-image: linear-gradient(180deg, #fff, #fff);
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.smoller {
+  width: 80%;
+  margin-top: 8px;
+  margin-bottom: 36px;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+.project-video {
+  margin-top: 20px;
+}
+
+.about-dnd-character {
+  margin-top: 48px;
+}
+
+.about-h3-titles {
+  margin-top: 48px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.about-summary-text {
+  width: 85%;
+  margin-top: 8px;
+  margin-bottom: 36px;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+.about-h4-subs {
+  margin-top: 16px;
+  margin-bottom: -8px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about-image {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin-top: 20px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+@media screen and (max-width: 991px) {
+  .mycontainer {
+    max-width: 700px;
+  }
+
+  .main-h1-bigname {
+    line-height: 1em;
+  }
+
+  .c2-class {
+    padding-left: 12px;
+  }
+
+  .c3-alignment {
+    padding-left: 16px;
+  }
+
+  .paragraph {
+    width: 90%;
+  }
+
+  .project-h1-bigtitle {
+    line-height: 1em;
+  }
+
+  .c2-party {
+    padding-left: 12px;
+  }
+
+  .c3-rewards {
+    padding-left: 16px;
+  }
+
+  .project-summary-text {
+    width: 85%;
+  }
+
+  .about-summary-text {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .body {
+    line-height: 2em;
+  }
+
+  .main-content {
+    padding: 40px 20px;
+  }
+
+  .main-h1-bigname {
+    line-height: 1em;
+  }
+
+  .paragraph {
+    width: 100%;
+  }
+
+  .main-project-title-link-epic {
+    font-size: 88px;
+  }
+
+  .main-project-title-link-epic-copy {
+    font-size: 88px;
+  }
+
+  .main-project-title-link-ansys {
+    font-size: 88px;
+  }
+
+  .main-project-title-link-witops {
+    font-size: 88px;
+  }
+
+  .main-project-title-link-loc {
+    font-size: 88px;
+  }
+
+  .main-project-title-link-roots {
+    font-size: 88px;
+  }
+
+  .main-project-title-link-owl {
+    font-size: 88px;
+  }
+
+  .main-project-title-link-hulu {
+    font-size: 88px;
+  }
+
+  .main-project-title-link-warbyparker {
+    font-size: 88px;
+  }
+
+  .main-project-title-link-petadopt {
+    font-size: 88px;
+  }
+
+  .main-other-realms-links {
+    font-size: 88px;
+  }
+
+  .project-h1-bigtitle {
+    line-height: 1em;
+  }
+
+  .project-summary-text {
+    width: auto;
+  }
+
+  .about-summary-text {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .body {
+    line-height: 1em;
+  }
+
+  .main-h1-bigname {
+    font-size: 48px;
+    line-height: 1em;
+  }
+
+  .main-h2-bigsub {
+    font-size: 18px;
+  }
+
+  .paragraph {
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.4em;
+  }
+
+  .main-h4-quests {
+    font-size: 28px;
+  }
+
+  .main-project-title-link-epic {
+    font-size: 44px;
+  }
+
+  .project-description {
+    font-size: 18px;
+  }
+
+  .main-project-title-link-epic-copy {
+    font-size: 44px;
+  }
+
+  .main-project-title-link-ansys {
+    font-size: 44px;
+  }
+
+  .main-project-title-link-witops {
+    font-size: 44px;
+  }
+
+  .main-project-title-link-loc {
+    font-size: 44px;
+  }
+
+  .main-project-title-link-roots {
+    font-size: 44px;
+  }
+
+  .main-project-title-link-owl {
+    font-size: 44px;
+  }
+
+  .main-project-title-link-hulu {
+    font-size: 44px;
+  }
+
+  .main-project-title-link-warbyparker {
+    font-size: 44px;
+  }
+
+  .main-project-title-link-petadopt {
+    font-size: 44px;
+  }
+
+  .main-other-realms-links {
+    font-size: 44px;
+  }
+
+  .project-h1-bigtitle {
+    font-size: 48px;
+    line-height: 1em;
+  }
+
+  .project-h2-bigsub {
+    font-size: 18px;
+  }
+
+  .project-summary-text {
+    width: auto;
+  }
+
+  .about-summary-text {
+    width: auto;
+  }
+}
